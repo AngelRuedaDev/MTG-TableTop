@@ -1,0 +1,51 @@
+:root{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height:7vh;
+}
+ul{
+    list-style: none;    
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#searchButton{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 8px;
+    background-color: aqua;
+}
+
+.side{
+    background-color: blue;
+    float: right;
+    width: 30%;
+}
+
+.grid-container {
+    display: inline-block;
+    max-width: 70%;
+    height: 93vh;  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.card{
+    margin: auto;
+}
+
+.card img{
+
+    height: 350px;
+}
