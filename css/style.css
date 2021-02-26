@@ -27,18 +27,25 @@ li{
 }
 
 .side{
-    background-color: blue;
-    float: right;
-    width: 30%;
+    background-color: #B6FA8C;
+    display: inline-block;    
+    width: 18%;
+    height: 92vh;
 }
 
-.grid-container {
-    display: inline-block;
-    max-width: 70%;
-    height: 93vh;  
+.grid-container{
+    float: left;
+    width: 80%;
+    height: 92vh;  
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+    overflow: hidden; 
+    overflow-y: scroll;    
+}
+
+.grid-container::-webkit-scrollbar{
+    display:none;
 }
 
 .card{
@@ -49,3 +56,15 @@ li{
 
     height: 350px;
 }
+
+.userCard{
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 15px 10px 0px 10px;
+    padding: 5px
+}
+
+.userCard p{
+    text-align: center;
+}
+
